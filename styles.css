@@ -14,7 +14,7 @@ align-items: center;
 justify-content: center;
 display: flex;
 }
-button{
+.firstbutton{
 margin: 5px;
 padding: 5px 10px;
 margin-top: 12px;
@@ -24,8 +24,23 @@ margin-right: 12px;
 cursor: pointer;
 border: 5px solid red;
 }
-button:hover{
-background-color: hotpink;
-color: white;
+/* .firstbutton:hover{
+    background-color: hotpink;
+    color: white;
+
+} */
+
+
+.subsbut{
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 18px;
 
 }
+.subsbutJS{
+    background-color: darkgray;
+    color: black;
+}
+

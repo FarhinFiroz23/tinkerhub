@@ -11,24 +11,23 @@
             Main Div
         </h1>
         <div class="secondDiv">
-            <button onclick=" myfunc('hii')">
+            <button class="firstbutton" onclick=" myfunc('hii')">
                 click
             </button>
+            
+        </div>
+        <div class="thirdDiv">
+            <button class="subsbut subsbutJS" id="subsBut" onclick="changebutton()">
+                subscribe
+            </button>
+
         </div>
        </div>
-       <script>
-        let count = 0;
-        let count2  = 2;
-        count+=count2;
-        console.log(count)
-        function myfunc(param1)
-        {count += count2;
-            console.log('hello ${param1}. your count is : ${count}.youre welcome')
-        }
-       // myfunc()
-        
+      
+       <script src="scripts.js/scripts.js">
 
        </script>
+       
       
       
     </body>
